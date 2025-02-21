@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:#a0a0a0;
+}
+
+#container {
+    background-color: #363636;
+    border-radius: 8px;
+    box-shadow: 0px 10px 15px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 400px;
+    height: 530px;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    border-style: ridge;
+    border-color: #1c1c1c;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#display {
+    width: 239px;
+    height: 56px;
+    background-color: #e0e0e0;
+    text-align: right;
+    font-size: 45px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-style: ridge;
+    border-color: #a9a9a9;
+    font-weight: bold;
+}
+
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    width: 80px;
+    height: 80px;
+    font-size: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.num {
+    background-color: #3d444d;
+    color: white;
+    border-style: ridge;
+    border-color: #2a2f35;
+}
+
+.num:hover{
+    background-color: #727f91;
+}
+
+.op {
+    background-color: #3e463c;
+    color: white;
+    border-style: ridge;
+    border-color: #272c26;
+}
+
+.op:hover{
+    background-color: #73826f;
+}
+
+.equal {
+    background-color: #3e463c;
+    color: white;
+    border-style: ridge;
+    border-color: #272c26;
+}
+
+.equal:hover{
+    background-color: #73826f;
+}
+
+
+.clear {
+    background-color: #6f6257;
+    color: white;
+    margin-bottom: 10px;
+    margin-right: 3px;
+    border-style: ridge;
+    border-color: #302b26;
+}
+
+.clear:hover{
+    background-color: #a79585;
+}
+
